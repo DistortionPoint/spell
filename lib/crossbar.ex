@@ -317,7 +317,7 @@ defmodule Crossbar do
   end
 
   defp reseed() do
-    <<a :: 32, b :: 32, c :: 32>> = :crypto.rand_bytes(12)
+    <<a :: 32, b :: 32, c :: 32>> = :crypto.strong_rand_bytes(12)
     :random.seed(a, b, c)
   end
 
