@@ -3,4 +3,4 @@
   "msgpax": {:hex, :msgpax, "0.7.0", "437988f46084bbeb6753e0b8c6f86fe4a7e0338413836c450ade567845a61040", [], [], "hexpm"},
   "pbkdf2": {:git, "https://github.com/pma/erlang-pbkdf2.git", "93b290d72b107747c717fb1f55811d2ebc1b73ed", [branch: "master"]},
   "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [], [], "hexpm"},
-  "websocket_client": {:git, "https://github.com/jeremyong/websocket_client.git", "f465f229958293949e4a192bea65a7e47bb2f762", [tag: "v0.7"]}}
+  "websocket_client": {:git, "https://github.com/jeremyong/websocket_client.git", "9a6f65d05ebf2725d62fb19262b21f1805a59fbf", [branch: "master"]}}

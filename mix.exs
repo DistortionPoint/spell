@@ -55,7 +55,7 @@ defmodule Spell.Mixfile do
   defp deps(_) do
     deps(:prod) ++ [
       # Req'd by: `Spell.Transport.Websocket`
-      {:websocket_client, github: "jeremyong/websocket_client", tag: "v0.7"},
+      {:websocket_client, github: "jeremyong/websocket_client", branch: "master"},
       # Req'd by: `Spell.Serializer.JSON`
       {:poison, "~> 3.1", optional: true},
       # Req'd by: `Spell.Serializer.MessagePack`
