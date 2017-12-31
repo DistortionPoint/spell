@@ -6,7 +6,7 @@ defmodule Spell.Mixfile do
      version: "0.1.0",
      name: "Spell",
      source_url: "https://github.com/MyMedsAndMe/spell",
-     elixir: "~> 1.0",
+     elixir: "~> 1.5",
      description: description,
      package: package,
      deps: deps(Mix.env),
@@ -42,7 +42,7 @@ defmodule Spell.Mixfile do
                     "Volker Rabe",
                     "Marco Tanzi"],
      licenses: ["Apache 2.0"],
-     links: %{"Github" => "https://github.com/MyMedsAndMe/spell"}]
+     links: %{"Github" => "https://github.com/DistortionPoint/spell"}]
   end
 
   defp deps(:prod) do
@@ -57,7 +57,7 @@ defmodule Spell.Mixfile do
       # Req'd by: `Spell.Transport.Websocket`
       {:websocket_client, github: "jeremyong/websocket_client", tag: "v0.7"},
       # Req'd by: `Spell.Serializer.JSON`
-      {:poison, "~> 1.4", optional: true},
+      {:poison, "~> 3.1", optional: true},
       # Req'd by: `Spell.Serializer.MessagePack`
       {:msgpax, "~> 0.7", optional: true},
       # Doc deps
